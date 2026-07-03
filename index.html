@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="description" content="Florentin Coeurdoux's Homepage">
-        <meta name="keywords" content="Florentin Coeurdoux, Computer Science, Machine Learning, Artificial Intelligence, Deep Learning">
+        <meta name="keywords" content="Florentin Coeurdoux, Machine Learning, Generative Models, Stochastic Interpolants, Bayesian Inference, Optimal Transport">
         <meta name="author" content="Florentin Coeurdoux">
         <meta http-equiv="X-UA-Compatible" content="chrome=1">
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -16,12 +16,6 @@
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
       <![endif]-->
 
-      <!-- Clicky stats : same -->
-      <script src="//static.getclicky.com/js" type="text/javascript"></script>
-      <script type="text/javascript">try{ clicky.init(100964614); }catch(e){}</script>
-      <noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/100964614ns.gif" /></p></noscript>
-
-      <!-- include some js files -->
       <script src="javascripts/css_browser_selector.js" type="text/javascript"></script>
       <script src="javascripts/scale.fix.js"></script>
 
@@ -32,110 +26,96 @@
             <!-- Header -->
             <header>
                 <h1>Florentin Coeurdoux</h1>
-                <p>👋Hi, I’m a research scientist on a quest to mechanize the scientific method by building artificial intelligence systems.</p> <p>This involves working on Bayesian inference, Deep Learning, Generative models and Optimal Transport with the goal to effectively apply these to domain sciences.</p>
+                <p>Research scientist working on generative models, stochastic interpolants, and Bayesian inference. Co-leading the CFM AI Lab in Paris.</p>
                 <ul>
                     <li><a href="#about">About</a></li>
                     <li><a href="#research">Research</a></li>
                     <li><a href="#works">Works</a></li>
-                    <li><a href="#teaching">Teaching</a></li>
-                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#service">Service</a></li>
                     <li><a href="./CV/Coeurdoux-CV.pdf">CV</a></li>
-                    <!--<li><a href="#links">Links</a></li>-->
                 </ul>
             </header>
+
             <!-- Content -->
             <section>
+
                 <!-- About -->
                 <h3 id="firsth">About<span id="about" class="anchor"/></h3>
-                <p> I am a Staff Research scientist at <a href= "https://www.cfm.com/" target="_blank"> CFM </a> in Paris. I obtained my PhD in statistics on December 2023 at <a href= "https://aniti.univ-toulouse.fr/en/" target="_blank"> ANITI </a> (<a href= "https://www.inp-toulouse.fr/fr/index.html" target="_blank">Toulouse INP</a>) within the <a href= "http://sc.enseeiht.fr/" target="_blank">SC</a> group of the <a href= "https://www.irit.fr/" target="_blank">IRIT</a> laboratory, under the supervision of <a href= "http://dobigeon.perso.enseeiht.fr/://dobigeon.perso.enseeiht.fr/" target="_blank"> Nicolas Dobigeon </a> and <a href= "http://pierrechainais.ec-lille.fr/" target="_blank"> Pierre Chainais </a>. Before this, I graduated from an MEng at <a href= "https://ensai.fr/en/" target="_blank"> ENSAI </a> in applied mathematics and computer science, and from the MBA master program of <a href= "https://www.igr.univ-rennes1.fr/en/" target="_blank"> IGR </a> in financial engineering.</p>
-                
-                <p> In Autumn/Winter 2022/2023, I was a research visiting scholar at the <a href= "https://www.stats.ox.ac.uk/" target="_blank"> Department of Statistics </a> of the University of Oxford working with <a href= "https://www.stats.ox.ac.uk/~doucet/" target="_blank"> Arnaud Doucet</a>.</p>
-                <p> Previously, I worked as a Software/Research Engineer at Credit Mutuel, leveraging machine learning to build better risk management systems. During my PhD, I was a member of the scientific advisory board for at <a href= "https://www.assessfirst.com/en/" target="_blank"> AssessFirst </a> </p>
 
-                <!-- Research interests -->
+                <p>I am a Staff Research Scientist at <a href="https://www.cfm.com/" target="_blank">CFM (Capital Fund Management)</a> in Paris, where I co-lead the CFM AI Lab with <a href="https://cims.nyu.edu/~eve2/" target="_blank">Eric Vanden-Eijnden</a>. Our group develops foundational methods in generative modeling and statistical inference, with applications to quantitative science and finance. I supervise a team of research interns and two PhD students.</p>
+
+                <p>My work is conducted in close collaboration with <a href="https://www.di.ens.fr/~mallat/" target="_blank">Stéphane Mallat</a> (ENS / Flatiron Institute) and <a href="https://www.cfm.com/research/researchers/jean-philippe-bouchaud/" target="_blank">Jean-Philippe Bouchaud</a> (CFM), among others.</p>
+
+                <p>I hold a PhD in statistics (2023), supervised by <a href="http://dobigeon.perso.enseeiht.fr/" target="_blank">Nicolas Dobigeon</a> and <a href="http://pierrechainais.ec-lille.fr/" target="_blank">Pierre Chainais</a>. During my doctorate, I was a visiting scholar at the <a href="https://www.stats.ox.ac.uk/" target="_blank">Department of Statistics, University of Oxford</a>, working with <a href="https://www.stats.ox.ac.uk/~doucet/" target="_blank">Arnaud Doucet</a>.</p>
+
+                <!-- Research Interests -->
                 <h3>Research Interests<span id="research" class="anchor"/></h3>
 
-                <h4>Deep Generative models</h4>
-                <ul>
-                    <li><strong>Nomalizing Flows</strong>: constructing complex distributions by transforming a probability density through a series of invertible mappings.</li>
-                    <li><strong>Diffusion based model</strong>: define a Markov chain of diffusion steps to slowly add random noise to data and then learn to reverse the diffusion process to construct desired data samples from the noise.</li>
-                    <li><strong>Generative Adversarial Network</strong>: implicit generative modeling algorithms.</li>
-                </ul>
-                <h4>Statiscial Inference</h4>
-                <ul>
-                    <li><strong>Density estimation</strong>: estimating the probability density function of the population from the sample.</li>
-                    <li><strong>Likelyhood free inference</strong>: allows to evaluate posterior distributions without having to calculate likelihoods.</li>
-                    <li><strong>Uncertainty quantification</strong>: quantifying uncertainties associated with model calculations of true, physical quantities of interest.</li>
-                </ul>
-                <h4>Optimal Transport</h4>
-                <ul>
-                    <li><strong>Computational OT</strong>: define geometric tools that are useful to compare probability distributions.</li>
-                    <li><strong>Sliced-Wasserstein distance</strong>: compares high-dimensional distributions by comparing their projected 1d-distributions.</li>
-                </ul>
+                <h4>Stochastic Interpolants &amp; Flow Matching</h4>
+                <p>Building generative models and samplers through continuous-time interpolation between distributions, with connections to score-based diffusion and optimal transport.</p>
 
+                <h4>Deep Generative Models</h4>
+                <p>Normalizing flows and diffusion-based models for density estimation, sampling, and likelihood-free inference.</p>
+
+                <h4>Bayesian Inference</h4>
+                <p>Plug-and-play methods that embed deep generative priors into posterior sampling, enabling scalable inference in high-dimensional inverse problems.</p>
+
+                <h4>Optimal Transport</h4>
+                <p>Computational and geometric tools for comparing probability distributions, including sliced-Wasserstein distances and flow-based OT maps.</p>
 
                 <!-- Works -->
                 <h3>Works<span id="works" class="anchor"/></h3>
-                
+
+                <h4>2025–2026</h4>
+                <ul>
+                    <li>H. Negrel, F. Coeurdoux, M. Albergo, E. Vanden-Eijnden. <i>Multitask Learning with Stochastic Interpolants</i>. NeurIPS 2025. <a href="https://arxiv.org/abs/2508.04605" target="_blank">arXiv</a> <a href="https://arxiv.org/pdf/2508.04605" target="_blank">pdf</a></li>
+
+                    <li>F. Coeurdoux, E. Lempereur, N. Cuvelle-Magar, S. Mallat, E. Vanden-Eijnden. <i>Generative Modeling via Kernelized Stochastic Interpolants</i>. ICML 2026 Workshop. <a href="https://arxiv.org/abs/2602.20070" target="_blank">arXiv</a> <a href="https://arxiv.org/pdf/2602.20070" target="_blank">pdf</a></li>
+
+                    <li>E. Lempereur, N. Cuvelle-Magar, F. Coeurdoux, S. Mallat, E. Vanden-Eijnden. <i>MGD: Moment Guided Diffusion for Maximum Entropy Generation</i>. Preprint, 2026. <a href="https://arxiv.org/abs/2602.17211" target="_blank">arXiv</a> <a href="https://arxiv.org/pdf/2602.17211" target="_blank">pdf</a></li>
+
+                    <li>M. Chalvidal, F. Coeurdoux, E. Vanden-Eijnden. <i>Covariance Shrinkage via Stochastic Interpolation</i>. Preprint, 2026. <a href="https://arxiv.org/abs/2606.07382" target="_blank">arXiv</a> <a href="https://arxiv.org/pdf/2606.07382" target="_blank">pdf</a></li>
+
+                    <li>F. Coeurdoux, G. Ferré, J.-P. Bouchaud. <i>Random Matrix Theory of Early-Stopped Gradient Flow</i>. Preprint, 2026. <a href="https://arxiv.org/abs/2604.18450" target="_blank">arXiv</a> <a href="https://arxiv.org/pdf/2604.18450" target="_blank">pdf</a></li>
+
+                    <li>E. Moreau, F. Coeurdoux, G. Ferré, E. Vanden-Eijnden. <i>Probing the Geometry of Diffusion Models with the String Method</i>. Preprint, 2026. <a href="https://arxiv.org/abs/2602.22122" target="_blank">arXiv</a> <a href="https://arxiv.org/pdf/2602.22122" target="_blank">pdf</a></li>
+                </ul>
+
                 <h4>Journals</h4>
                 <ul>
-                    <li>F. Coeurdoux, N. Dobigeon, P. Chainais. <i>Plug-and-Play split Gibbs sampler: embedding deep generative priors in Bayesian inference</i>. <a href= "https://arxiv.org/abs/2304.11134" target="_blank"> arXiv </a> <a href= "https://arxiv.org/pdf/2304.11134.pdf" target="_blank"> pdf </a> <a href= "https://github.com/FlorentinCDX/PnP-SGS" target="_blank"> code </a> </li> 
-                    <li>F. Coeurdoux, N. Dobigeon, P. Chainais. <i>Normalizing flow sampling with Langevin dynamics in the latent space</i>. <a href= "https://arxiv.org/abs/2305.12149" target="_blank"> arXiv </a> <a href= "https://arxiv.org/pdf/2305.12149.pdf" target="_blank"> pdf </a> </li>
+                    <li>F. Coeurdoux, N. Dobigeon, P. Chainais. <i>Plug-and-Play split Gibbs sampler: embedding deep generative priors in Bayesian inference</i>. IEEE Transactions on Image Processing, 2024. <a href="https://arxiv.org/abs/2304.11134" target="_blank">arXiv</a> <a href="https://arxiv.org/pdf/2304.11134.pdf" target="_blank">pdf</a> <a href="https://github.com/FlorentinCDX/PnP-SGS" target="_blank">code</a></li>
+
+                    <li>F. Coeurdoux, N. Dobigeon, P. Chainais. <i>Normalizing flow sampling with Langevin dynamics in the latent space</i>. Machine Learning, 2023. <a href="https://arxiv.org/abs/2305.12149" target="_blank">arXiv</a> <a href="https://arxiv.org/pdf/2305.12149.pdf" target="_blank">pdf</a></li>
                 </ul>
 
                 <h4>International Conferences</h4>
                 <ul>
-                    <li>F. Coeurdoux, N. Dobigeon, P. Chainais. <i>Learning Optimal Transport Between two Empirical Distributions with Normalizing Flows</i>. ECML-PKDD 2022 <a href= "https://arxiv.org/abs/2207.01246" target="_blank"> arXiv </a> <a href= "https://arxiv.org/pdf/2207.01246.pdf" target="_blank"> pdf </a> <a href= "https://github.com/FlorentinCDX/SWOT-Flow" target="_blank"> code </a>  <a href= "https://www.irit.fr/un-papier-sur-le-transport-optimal-selectionne-a-la-conference-ecmlpkdd/" target="_blank"> press </a></li>
-                    <li>F. Coeurdoux, N. Dobigeon, P. Chainais. <i>Sliced-Wasserstein normalizing flows: beyond maximum likelihood training</i>. ESANN 2022 <a href= "https://arxiv.org/abs/2207.05468" target="_blank"> arXiv </a> <a href= "https://arxiv.org/pdf/2207.05468.pdf" target="_blank"> pdf </a> </li>
+                    <li>F. Coeurdoux, N. Dobigeon, P. Chainais. <i>Learning Optimal Transport Between two Empirical Distributions with Normalizing Flows</i>. ECML-PKDD 2022. <a href="https://arxiv.org/abs/2207.01246" target="_blank">arXiv</a> <a href="https://arxiv.org/pdf/2207.01246.pdf" target="_blank">pdf</a> <a href="https://github.com/FlorentinCDX/SWOT-Flow" target="_blank">code</a></li>
+
+                    <li>F. Coeurdoux, N. Dobigeon, P. Chainais. <i>Sliced-Wasserstein normalizing flows: beyond maximum likelihood training</i>. ESANN 2022. <a href="https://arxiv.org/abs/2207.05468" target="_blank">arXiv</a> <a href="https://arxiv.org/pdf/2207.05468.pdf" target="_blank">pdf</a></li>
                 </ul>
 
-                <h4>National conference papers</h4>
+                <!-- Service -->
+                <h3>Service<span id="service" class="anchor"/></h3>
                 <ul>
-                    <li>F. Coeurdoux, N. Dobigeon, P. Chainais. <i>Approximation du transport optimal entre distributions empiriques par flux de normalisation</i>. Colloque GRETSI, Sept 2022, Nancy <a href= "https://hal.archives-ouvertes.fr/hal-03704666/document" target="_blank"> pdf </a> </li>
-                    <li>F. Coeurdoux, N. Dobigeon, P. Chainais. <i>Méthode MCMC plug-and-play avec a priori génératif profond</i>. Colloque GRETSI, Aug 2023, Grenoble <a href= "https://hal.science/hal-04154783" target="_blank"> pdf </a> </li>
-                </ul>
-
-                <!-- Teaching -->
-                <h3>Teaching<span id="teaching" class="anchor"/></h3>
-                <h4>2021-2022</h4>
-                <ul>
-                    <li>Algorithms and C++ Programming - INP-ENSEEIHT (Toulouse, France)</li>
-                    <li>Optimization - INP-ENSEEIHT (Toulouse, France)</li>
-                    <li>Lebesgue integration - INP-ENSEEIHT (Toulouse, France) </li>
-                    <li>Algorithms and imperative programming - INP-ENSEEIHT (Toulouse, France)</li>
-                    <li>Statistics - INP-ENSEEIHT (Toulouse, France) </li>
-                </ul>
-
-                <!-- Experience -->
-                <h3>Experience<span id="experience" class="anchor"/></h3>
-
-
-                <h4>Laboratory life</h4>
-                <ul>
-                    <li>Member of the <a href="http://www.irit.fr" target="_blank">IRIT</a> doctoral committee</li>
-                    <li>Member of the <a href="https://www.gdr-isis.fr/" target="_blank">GdR ISIS</a> </li>
-                    <li>Member of the <a href="https://tiddle-group.github.io/" target="_blank">TIdDLe Deep Learning Group</a> </li>
-                    <li>Member of <a href="https://mlcollective.org/" target="_blank">ML Collective</a> </li>
-                    <li>AISTATS 2023, <a href="https://aistats.org/aistats2023/reviewers.html" target="_blank">Top reviewer</a> </li>
-
+                    <li>AISTATS 2023, <a href="https://aistats.org/aistats2023/reviewers.html" target="_blank">Top Reviewer</a></li>
+                    <li>ICML 2026, attending</li>
                 </ul>
 
                 <!-- Links -->
                 <h3>Links<span id="links" class="anchor"/></h3>
                 <ul>
-                    <li><a href="https://github.com/FlorentinCDX" class="user-mention" target="_blank">Github profile</a></li>
-                    <li><a href="https://medium.com/@coeurdoux.florentin" class="user-mention" target="_blank">Medium profile</a></li>
-                    <li><a href="https://www.linkedin.com/in/florentin-coeurdoux/" target="_blank">LinkedIn profile</a></li>
+                    <li><a href="https://github.com/FlorentinCDX" class="user-mention" target="_blank">Github</a></li>
+                    <li><a href="https://scholar.google.com/citations?user=iSYtuRgAAAAJ&hl=en" target="_blank">Google Scholar</a></li>
+                    <li><a href="https://www.linkedin.com/in/florentin-coeurdoux/" target="_blank">LinkedIn</a></li>
                     <li><a href="mailto:coeurdoux.florentin@gmail.com">E-mail</a></li>
-
                 </ul>
 
             </section>
 
             <!-- Footer -->
             <footer>
-                <p><small>Made with ❤️  while waiting for Neural Networks models to learn &mdash; Original layout by <a href="https://github.com/orderedlist/minimal" target="_blank">orderedlist</a></small></p>
-                <!-- Vim, What Else? -->
+                <p><small>Florentin Coeurdoux &mdash; Paris</small></p>
             </footer>
 
         </div>
