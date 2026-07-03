@@ -141,6 +141,30 @@ header {
   border-radius:4px;
 }
 
+.paper {
+  margin-bottom:22px;
+}
+
+.paper-title {
+  display:block;
+  font-weight:700;
+  color:#222;
+  margin-bottom:3px;
+}
+
+.paper-authors {
+  display:block;
+  font-size:13px;
+  color:#888;
+  margin-bottom:2px;
+}
+
+.paper-venue {
+  display:block;
+  font-size:13px;
+  color:#555;
+}
+
 header p {
   text-align:justify;
 
